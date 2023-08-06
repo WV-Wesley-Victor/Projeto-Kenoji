@@ -1,0 +1,29 @@
+Este é um trecho de código CSS que estiliza a página da web "Kenoji" descrita anteriormente. Ele controla a aparência e o layout dos elementos HTML presentes na página. Vou explicar as partes importantes desse código:
+
+1 - Definição Global e Estilo do Corpo (Body): O CSS começa definindo algumas propriedades para o corpo (body) da página. Define a fonte, altura (viewport height), margem e uma imagem de fundo gradiente radial.
+
+2 - Wrapper: Estiliza o elemento com o id wrapper, que é usado para conter todo o conteúdo da página. Define a largura máxima, margens e alinhamento central.
+
+3 - Cabeçalho (Header): Estiliza o cabeçalho da página, que contém o logotipo. Define o espaçamento interno (padding).
+
+4 - Título (H1): Estiliza o título principal da página. Define o tamanho da fonte, margens e a cor do texto para o texto dentro das tags strong.
+
+5 - Seção Principal (Main): Estiliza a seção principal da página que contém o conteúdo principal. Usa flexbox para organizar os elementos filhos horizontalmente com um espaçamento entre eles.
+
+6 - Estilização dos Elementos Filhos do Main: Estiliza os elementos filhos dentro do elemento main. Utiliza flexbox para que eles preencham o espaço disponível igualmente.
+
+7 - Classe "Upper": Estiliza o texto com a classe "upper" para transformá-lo em maiúsculas.
+
+8 - Parágrafo (P): Define a propriedade font-weight para deixar o texto um pouco mais leve.
+
+9 - Formulário (Form): Estiliza o formulário de busca. Usa flexbox para organizar os elementos filhos horizontalmente com um espaçamento entre eles.
+
+10 - Campos de Entrada (Input): Estiliza os campos de entrada do formulário. Define o preenchimento (padding), a borda, a fonte e a cor.
+
+11 - Estilização de Placeholder: Estiliza o texto de placeholder (dica) nos campos de entrada.
+
+12 - Animação dos Emojis: Cria uma animação para os emojis na seção de animação. Usa a propriedade position: absolute para posicioná-los e define uma animação @keyframes chamada "topleft" que move os emojis diagonalmente.
+
+A animação "topleft" é aplicada a cada emoji individualmente, fazendo-os se moverem alternadamente de uma posição para outra, criando um efeito de movimento.
+
+Esse código CSS trabalha em conjunto com o código HTML anterior para estilizar e animar a página da web "Kenoji".

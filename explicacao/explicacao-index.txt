@@ -1,0 +1,27 @@
+Esse é um exemplo de código HTML para uma página da web chamada "Kenoji - Sua biblioteca de Emojis grátis e para sempre". Vou explicar as principais partes desse código:
+
+1 - DOCTYPE e Linguagem: Esta linha define o tipo de documento como HTML5 e a linguagem como português do Brasil.
+
+2 - Meta Tags: As meta tags fornecem informações sobre a página, como a codificação de caracteres, a compatibilidade do navegador, a exibição em dispositivos móveis, o autor, a descrição e palavras-chave para fins de SEO.
+
+3 - Título da Página: Define o título exibido na aba do navegador.
+
+4 - Links para Fontes e Estilos Externos: O documento está usando a fonte "Montserrat" do Google Fonts e um arquivo de estilo externo chamado "style.css" para aplicar estilos à página.
+
+5 - Corpo da Página (Body): A maior parte do conteúdo da página está dentro do elemento body.
+
+6 - Header (Cabeçalho): Aqui está o cabeçalho da página, que contém o logotipo da "Kenoji". O logotipo é uma imagem chamada "logo.svg".
+
+7 - Main (Conteúdo Principal): O conteúdo principal da página está dentro do elemento main.
+
+8 - Section (Seção): Aqui está uma seção que contém um título, um parágrafo descritivo e um formulário de busca. Os emojis são a principal temática do site, e os usuários podem buscar e fazer o download deles.
+
+9 - H1 e Parágrafo: O título principal da seção está envolvido em um elemento h1, e o parágrafo subsequente fornece informações adicionais sobre o serviço. A classe "upper" é usada para aplicar estilos a uma parte específica do texto.
+
+10 - Formulário de Busca: Um formulário que permite aos usuários digitar um termo de busca para encontrar emojis. O campo de entrada é focado automaticamente (autofocus), e há um botão de envio "Buscar".
+
+11 - Div com Classe "Animation": Esta div contém várias imagens de emojis dispostas horizontalmente. Elas representam uma animação de emojis.
+
+12 - Imagens de Emojis: Cada imagem representa um emoji diferente e é referenciada por meio de URLs (por exemplo, "images/emoji-1.svg").
+
+Esse código é a estrutura básica da página web "Kenoji", apresentando o cabeçalho, o conteúdo principal com uma seção de busca por emojis e uma animação de emojis. O estilo visual é controlado pelo arquivo "style.css", que não está incluído neste trecho de código.

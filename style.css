@@ -1,0 +1,129 @@
+html {
+    height: 0.01rem;
+}
+
+body {
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    height: 100vh;
+    margin: 0;
+    background-image: radial-gradient(ellipse at 0 0, #fff8ce, #ffb61d);
+}
+
+#wrapper {
+    width: 90%;
+    max-width: 83.75rem;
+    margin: auto;
+}
+
+header {
+    padding: 3.125rem 0;
+}
+
+h1 {
+    font-size: 4.125rem;
+    margin: 0 0 3.125rem;
+}
+
+h1 strong {
+    text-transform: uppercase;
+    color: brown;
+}
+
+main {
+    display: flex;
+    gap: 2rem;
+}
+
+main>* {
+    /* flex-grow: 1;
+    flex-basis: 0; */
+    flex: 1 0 0;
+}
+
+.upper {
+    text-transform: uppercase;
+}
+
+p {
+    font-weight: 300;
+}
+
+form {
+    display: flex;
+    gap: 1rem;
+}
+
+form input {
+    padding: 1rem;
+    border-radius: 0.375rem;
+    font-family: inherit;
+    border: 0.0625rem solid #28293e;
+    outline: none;
+}
+
+form input[type="submit"] {
+    background-color: #031d44;
+    color: white;
+}
+
+form input[type="text"] {
+    background-color: transparent;
+}
+
+form input[type="text"]::placeholder {
+    color: #28293e;
+}
+
+.animation {
+    position: relative;
+}
+
+.animation img {
+    position: absolute;
+}
+
+.animation img:nth-child(1) {
+    left: 0.625rem;
+    top: 9.375rem;
+    animation: topleft 2s infinite alternate;
+}
+
+.animation img:nth-child(2) {
+    right: 0.625rem;
+    top: 1.25rem;
+    animation: topleft 3s 0.5s infinite alternate;
+}
+
+.animation img:nth-child(3) {
+    right: 0;
+    top: 0;
+    animation: topleft 3.5s 0.5s infinite alternate;
+}
+
+.animation img:nth-child(4) {
+    left: 6.25rem;
+    bottom: -3.25rem;
+    animation: topleft 4s 0.5s infinite alternate;
+}
+
+.animation img:nth-child(5) {
+    left: 6.25rem;
+    top: -6.25rem;
+    animation: topleft 3s infinite alternate;
+}
+
+.animation img:nth-child(6) {
+    right: 6.25rem;
+    bottom: -4.25rem;
+    animation: topleft 4s infinite alternate;
+}
+
+@keyframes topleft {
+    from {
+        transform: translate(0, 0);
+    }
+
+    to {
+        transform: translate(-0.625rem, -1.875rem);
+    }
+}
