@@ -3,7 +3,7 @@ Este é um repositório no GitHub dedicado ao projeto Kenoji, uma aplicação we
 
 ![Captura de Tela (69)](https://github.com/WV-Wesley-Victor/Projeto-Kenoji/assets/137107062/fc6c9211-d30b-44af-aca5-0d064420cdfd)
 <p align="center">
-  <a href="https://wv-wesley-victor.github.io/Projeto-Dashboard/" target="_blank">Clique aqui para visitar o projeto</a>
+  <a href="https://wv-wesley-victor.github.io/Projeto-Kenoji/" target="_blank">Clique aqui para visitar o projeto</a>
 </p>
 
 ## Descrição
